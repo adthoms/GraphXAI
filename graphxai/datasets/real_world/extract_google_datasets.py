@@ -41,7 +41,7 @@ def load_graphs(datapath: str):
     # print(X)
     # print(df)
     #ylist = [y['y'][i][0] for i in range(y['y'].shape[0])]
-    ylist = [y[i][0] for i in range(y.shape[0])]
+    ylist = [int(y[i][0]) for i in range(y.shape[0])]
 
     #att = att['datadict_list']
     X = X[0]
